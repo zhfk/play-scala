@@ -1,0 +1,21 @@
+@(msgs:List[services.Message],msgForm:Form[(String,String)])(implicit messages: Messages)
+@import helper._
+@main("message_board"){
+    <h2>leave messages here</h2>
+    <ul>
+        @msgs.map{ message =>
+        <li>
+            <p><strong>@message.name</strong></p>
+            <p>@message.content</p>
+        </li>
+        }
+    </ul>
+    <h2>deliver message</h2>
+    @form(action=routes.Application.postMsg){
+
+            @inputText(msgForm("name"),'_label -> "名字")
+            @inputText(msgForm("content"),'_label -> "内容")
+
+            <input type="submit" value="submit" />
+    }
+}

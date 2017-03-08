@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(E:\IDEA_project\play-scala\conf\application.conf,E:\IDEA_project\play-scala\target\scala-2.11\classes\application.conf)
+[debug] 	(E:\IDEA_project\play-scala\conf\logback.xml,E:\IDEA_project\play-scala\target\scala-2.11\classes\logback.xml)
+[debug] 	(E:\IDEA_project\play-scala\conf\routes,E:\IDEA_project\play-scala\target\scala-2.11\classes\routes)
