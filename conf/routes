@@ -14,3 +14,5 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET      /m                         controllers.Application.m
 POST    /postMsg                    controllers.Application.postMsg
+
+->      /m
